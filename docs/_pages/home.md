@@ -6,23 +6,23 @@ header:
   overlay_filter: "0.3"
   overlay_image: https://github.com/shirosaidev/diskover/blob/master/docs/_pages/heatmap.png?raw=true
   cta_label: "<i class='fa fa-download' aria-hidden='true'></i> Download"
-  cta_url: "https://diskoverdata.com/diskover/"
+  cta_url: "https://github.com/shirosaidev/diskover/releases/latest"
   caption:
-excerpt: '<img src="https://github.com/shirosaidev/diskover/raw/master/docs/diskover.png?raw=true" style="width: 183px; float: left; margin: 0px 30px 10px 0px;">File system crawler, file search engine and data management and analytics software powered by Elasticsearch to help visualize and manage your data.<br /> <br /><br />
+excerpt: '<img src="https://github.com/shirosaidev/diskover/raw/master/docs/diskover.png?raw=true" style="width: 183px; float: left; margin: 0px 30px 10px 0px;">File system crawler, storage search engine and storage analytics software powered by Elasticsearch to help visualize and manage your disk space usage.<br /> <small><a href="https://github.com/shirosaidev/diskover/releases/tag/v1.5.0.12">Latest release v1.5.0.12</a></small><br /><br />
 {::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=shirosaidev&repo=diskover&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=shirosaidev&repo=diskover&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>{:/nomarkdown}'
 feature_row:
   - url: https://github.com/shirosaidev/diskover-web/blob/master/docs/diskover-web-filetree-screenshot.png?raw=true
     image_path: https://github.com/shirosaidev/diskover-web/blob/master/docs/diskover-web-filetree-screenshot.png?raw=true
     alt: "file system crawler"
     title: "File System Crawler"
-    excerpt: "diskover crawls your local, NFS/SMB, or cloud storage servers and scrapes file/directory meta data into Elasticsearch."
+    excerpt: "diskover crawls your storage servers locally or over NFS/SMB and scrapes file/directory meta data into Elasticsearch."
     url: "https://github.com/shirosaidev/diskover"
     btn_class: "btn--primary"
     btn_label: "Learn More"
   - url: https://github.com/shirosaidev/diskover-web/blob/master/docs/diskover-web-dashboard-screenshot.png?raw=true
     image_path: https://github.com/shirosaidev/diskover-web/blob/master/docs/diskover-web-dashboard-screenshot.png?raw=true
     alt: "analyze metadata"
-    title: "Visualize Your Data"
+    title: "Visualize Your Storage"
     excerpt: "Identify old and unused files and give better insights into data change, duplicate files and wasted disk space."
     url: "https://github.com/shirosaidev/diskover"
     btn_class: "btn--primary"
@@ -31,7 +31,7 @@ feature_row:
     image_path: https://github.com/shirosaidev/diskover-web/blob/master/docs/diskover-web-treemap-screenshot.png?raw=true
     alt: "open-source"
     title: "Open Source"
-    excerpt: "Built using Python + PHP + HTML5 + Javascript + D3.js. diskover runs on Linux, macOS, and Windows."
+    excerpt: "Built using Python + PHP + HTML5 + Javascript + D3.js. diskover runs on Linux and macOS."
     url: "https://github.com/shirosaidev/diskover"
     btn_class: "btn--primary"
     btn_label: "Learn More"
@@ -39,20 +39,22 @@ github:
   - excerpt: '{::nomarkdown}<iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=shirosaidev&repo=diskover&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> <iframe style="display: inline-block;" src="https://ghbtns.com/github-btn.html?user=shirosaidev&repo=diskover&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
 <script async defer src="https://buttons.github.io/buttons.js"></script>{:/nomarkdown}'
 intro:
-  - excerpt: '{::nomarkdown}<strong>For businesses interested in deploying and running diskover, please visit <a href="https://diskoverdata.com">https://diskoverdata.com</a> to learn more.</strong><br><br>Join the conversation, get support on <a href="https://join.slack.com/t/diskoverworkspace/shared_invite/enQtNzQ0NjE1Njk5MjIyLWI4NWQ0MjFhYzQyMTRhMzk4NTQ3YjBlYjJiMDk1YWUzMTZmZjI1MTdhYTA3NzAzNTU0MDc5NDA2ZDI4OWRiMjM">diskover Slack</a>.<br><br><a href="https://diskoverdata.com/diskover/">Create an account</a> to download and run diskover community edition.{:/nomarkdown}'
+  - excerpt: '{::nomarkdown}Support the development&nbsp;<a class="btn btn--primary" href="https://www.patreon.com/shirosaidev" target="_blank" role="button"><i class="fa fa-heart" aria-hidden="true"></i> Sponsor Patreon</a>&nbsp;<a class="btn btn--primary" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLF223XAS4W72" target="_blank" role="button"><i class="fa fa-credit-card" aria-hidden="true"></i> Donate PayPal</a>{:/nomarkdown}'
+  - excerpt: '{::nomarkdown}<strong>For businesses interested in diskover enterprise version, please visit <a href="https://diskoverspace.com">https://diskoverspace.com</a> to learn more.</strong>{:/nomarkdown}'
 ---
 
 {% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
-<h2>News/ Updates</h2>
-<p>diskover v2 will be released soon (Q1 2021), please sign up and register at <a href="https://diskoverdata.com/diskover/">https://diskoverdata.com/diskover/</a> for updates and join diskover Slack. <strong>v1 is end of life and is no longer supported.</strong></p>
+<br>
 <blockquote><h3><q>This is the first tool I've found that can index 7m files/2m directories in under 20 min</q></h3> -- linuxserver.io community member</blockquote>
-<p><strong>diskover</strong> is an open source file system crawler and data management and visualization software that uses <strong>Elasticsearch</strong> to index and manage data across heterogeneous storage systems. Using diskover, you are able to more effectively search and organize files and system administrators are able to manage storage infrastructure, efficiently provision storage, monitor and report on storage use, and effectively make decisions about new infrastructure purchases.</p>
+<br>
+<p><strong>diskover</strong> is an open source file system crawler and disk space usage software that uses <strong>Elasticsearch</strong> to index and manage data across heterogeneous storage systems. Using diskover, you are able to more effectively search and organize files and system administrators are able to manage storage infrastructure, efficiently provision storage, monitor and report on storage use, and effectively make decisions about new infrastructure purchases.</p>
 <p>As the amount of file data generated by businesses continues to expand, the stress on expensive storage infrastructure, users and system administrators, and IT budgets continues to grow.</p>
-<p>Using diskover, users can identify old and unused files and give better insights into data change, file duplication and wasted space. diskover crawls local file-systems, NFS/SMB and cloud storage, etc.</p>
-<h2>Screenshots (v1)</h2>
+<p>Using diskover, users can identify old and unused files and give better insights into data change, file duplication and wasted space. diskover supports crawling local file-systems or over NFS/SMB. Amazon S3 inventory files are also supported.</p>
+<div align="center"><img src="https://github.com/shirosaidev/diskover/blob/master/docs/diskover-diagram1-dark.png?raw=true" alt="diskover diagram" width="800" height="525"/></div>
+<h2>Screenshots</h2>
 <table border="0">
   <tr>
     <td>See data change on your file system and identify hot spots<br />
@@ -81,21 +83,23 @@ intro:
 </table>
 <table border="0">
   <tr>
-    <td align="center" width="33%"><span style="font-size:18px;font-weight:bold;">Run in VMware</span></td>
-    <td align="center" width="33%"><span style="font-size:18px;font-weight:bold;">Run in Amazon AWS</span></td>
-    <td align="center" width="33%"><span style="font-size:18px;font-weight:bold;">Run in Docker</span></td>
+    <td align="center" width="33%"><span style="font-size:18px;font-weight:bold;">OVA Files for VMware</span></td>
+    <td align="center" width="33%"><span style="font-size:18px;font-weight:bold;">Runs on Amazon AWS/S3 Support</span></td>
+    <td align="center" width="33%"><span style="font-size:18px;font-weight:bold;">Works with Docker</span></td>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/shirosaidev/diskover/blob/master/docs/_pages/vmware_logo_1.png?raw=true" alt="diskover vmware" width="156" height="153" /></td>
+    <td align="center"><img src="https://github.com/shirosaidev/diskover/blob/master/docs/_pages/vmware_logo_1.png?raw=true" alt="diskover ova vmware" width="156" height="153" /></td>
     <td align="center"><img src="https://github.com/shirosaidev/diskover/blob/master/docs/_pages/amazon_web_services_logo_aws.jpg?raw=true" alt="diskover aws" width="178" height="117" /></td>
     <td align="center"><img src="https://github.com/shirosaidev/diskover/blob/master/docs/_pages/docker_logo.png?raw=true" alt="diskover docker" width="200" height="133" /></td>
   </tr>
   <tr>
-    <td>diskover can be set up in VMware or on bare-metal, modular design allows you to run crawlers on bare-metal, ES and diskover-web in VMware or any way you like.</td>
-    <td>diskover works on AWS using EC2 and Elasticsearch instances. Crawlers can run locally and push file system meta data into your AWS ES cluster.</td>
-    <td>Run diskover and diskover-web containers anywhere. Docker install instructions can be found on diskover github.</td>
+    <td>Patreon sponsors get access to OVA's which get diskover up and running quickly and easily. The OVA files can be imported into VMware, etc to get you crawling all your storage servers in less than an hour.</td>
+    <td>diskover works on AWS using EC2 and Elasticsearch instances. Crawl bots can run locally and push file system meta data into your AWS ES cluster. S3 Inventory files can also be imported into Elasticsearch to view S3 bucket usage.</td>
+    <td>Run diskover and diskover-web containers anywhere. Docker Hub images and Dockerfiles can be found on diskover github.</td>
   </tr>
 </table>
 <h2>diskover worker bots crawling file system (gource videos)</h2>
 {::nomarkdown}<iframe width="560" height="315" src="https://www.youtube.com/embed/qKLJjZ0TMqA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>{:/nomarkdown}<br />
 {::nomarkdown}<iframe width="560" height="315" src="https://www.youtube.com/embed/InlfK8GQ-kM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>{:/nomarkdown}
+<h2>Questions/Support</h2>
+<p>For questions or support with diskover, please join the <a href="https://join.slack.com/t/diskoverworkspace/shared_invite/enQtNzQ0NjE1Njk5MjIyLWI4NWQ0MjFhYzQyMTRhMzk4NTQ3YjBlYjJiMDk1YWUzMTZmZjI1MTdhYTA3NzAzNTU0MDc5NDA2ZDI4OWRiMjM">diskover Slack workspace</a>.</p>
